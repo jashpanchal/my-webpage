@@ -1,0 +1,61 @@
+#info img{
+    width: 400px;
+}
+body{
+    text-align: center;
+    font-family: lobster;
+}
+img{
+    transition: transform;
+}
+img:hover{
+    transform: scale(0.9)
+}
+.menu{
+    font-family: fantasy;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    display: inline;
+}
+.links:hover{
+    background-color: darkturquoise;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    background: linear-gradient(#03fcdf 0%, #034afc 25%, #4da142 50%, #ffe603 75%, #f51000 )
+}
+h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Contacts h5{
+    display: inline;
+}
+#CAROUSEL{
+    background-color: fuchsia;
+}
+.container{
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+}
+#CAROUSEL img{
+    height: 200px;
+}
